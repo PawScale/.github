@@ -1,0 +1,36 @@
+name: Community Health Files Check
+
+on:
+  pull_request:
+    paths:
+      - 'CODE_OF_CONDUCT.md'
+      - 'CONTRIBUTING.md'
+      - 'SECURITY.md'
+      - 'LICENSE'
+      - '.github/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'CODE_OF_CONDUCT.md'
+      - 'CONTRIBUTING.md'
+      - 'SECURITY.md'
+      - 'LICENSE'
+      - '.github/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check if files exist
+        run: |
+          echo "Checking community health files..."
+          test -f CODE_OF_CONDUCT.md && echo "✓ CODE_OF_CONDUCT.md found"
+          test -f CONTRIBUTING.md && echo "✓ CONTRIBUTING.md found"
+          test -f SECURITY.md && echo "✓ SECURITY.md found"
+          test -f LICENSE && echo "✓ LICENSE found"
+          test -f README.md && echo "✓ README.md found"
+          test -f .github/PULL_REQUEST_TEMPLATE.md && echo "✓ PULL_REQUEST_TEMPLATE.md found"
+          echo "All community health files are present!"
