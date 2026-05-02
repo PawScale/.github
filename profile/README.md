@@ -12,17 +12,17 @@ Our mission is to make pet health and wellness accessible, affordable, and data-
 
 We welcome contributions from everyone! Whether you're a developer, designer, pet enthusiast, or just passionate about making a difference:
 
-- **Start Contributing**: Check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide
+- **Start Contributing**: Check out our [CONTRIBUTING.md](https://github.com/PawScale/.github/blob/main/CONTRIBUTING.md) guide
 - **Join Discussions**: Participate in our [GitHub Discussions](https://github.com/orgs/PawScale/discussions)
 - **Report Issues**: Found a bug? [Open an issue](https://github.com/PawScale/.github/issues)
-- **Follow Our Code of Conduct**: Read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- **Follow Our Code of Conduct**: Read our [CODE_OF_CONDUCT.md](https://github.com/PawScale/.github/blob/main/CODE_OF_CONDUCT.md)
 
 ### 👩‍💻 Useful Resources
 
-- **Documentation**: Visit our repositories for detailed docs
-- **Security**: Report vulnerabilities responsibly via [SECURITY.md](SECURITY.md)
-- **Community**: Connect with other contributors in our discussions
-- **Contributing Guidelines**: Learn how to contribute at [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Documentation**: Visit our [repositories](https://github.com/orgs/PawScale/repositories) for detailed docs
+- **Security**: Report vulnerabilities responsibly via [SECURITY.md](https://github.com/PawScale/.github/blob/main/SECURITY.md)
+- **Community**: Connect with other contributors in our [discussions](https://github.com/orgs/PawScale/discussions)
+- **Contributing Guidelines**: Learn how to contribute at [CONTRIBUTING.md](https://github.com/PawScale/.github/blob/main/CONTRIBUTING.md)
 
 ### 🐾 Our Projects
 
@@ -38,7 +38,8 @@ Explore our repositories to find projects that interest you:
 
 - **Organization**: [PawScale GitHub](https://github.com/PawScale)
 - **Discussions**: [Community Discussions](https://github.com/orgs/PawScale/discussions)
-- **License**: MIT - See individual repositories for details
+- **Website**: [PawScale.github.io](https://pawscale.github.io)
+- **License**: [MIT License](https://github.com/PawScale/.github/blob/main/LICENSE)
 - **Support**: security@pawscale.io for security concerns
 
 ### 🍿 Fun Facts
